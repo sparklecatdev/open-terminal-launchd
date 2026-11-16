@@ -1,0 +1,9 @@
+{
+  "name": "openterminal",
+  "version": "0.1.0",
+  "description": "launchd wrapper for open-terminal",
+  "private": true,
+  "scripts": {
+    "start": "~/.local/bin/open-terminal run --host 127.0.0.1 --port 8000 --api-key \"$OPEN_TERMINAL_API_KEY\""
+  }
+}
